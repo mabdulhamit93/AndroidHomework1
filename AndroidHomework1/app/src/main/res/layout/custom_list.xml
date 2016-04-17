@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:layout_width="match_parent"
+android:layout_height="320dp"
+    >
+
+<ImageView
+    android:id="@+id/imageIcon"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:maxHeight="10dp"
+    android:maxWidth="10dp"
+    android:src="@drawable/imagephone" />
+
+<TextView
+    android:id="@+id/txtName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/imageIcon"
+    android:layout_marginLeft="16dp"
+    android:layout_toRightOf="@+id/imageIcon"
+    android:text="Large Text"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/txtNumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/imageIcon"
+    android:layout_alignLeft="@+id/txtName"
+    android:text="Small Text"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+</RelativeLayout>
